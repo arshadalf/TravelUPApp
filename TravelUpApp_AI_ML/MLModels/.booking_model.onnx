@@ -1,0 +1,26 @@
+﻿using Microsoft.ML.OnnxRuntime;
+using Microsoft.ML.OnnxRuntime.Tensors;
+
+public class BookingPredictionService
+{
+    private readonly InferenceSession _session;
+
+    public BookingPredictionService()
+    {
+        var modelPath = Path.Combine("MLModels", "booking_model.onnx");
+        _session = new InferenceSession(modelPath);
+    }
+
+    public float Predict(float[] input)
+    {
+        var inputTensor = new DenseTensor<float>(input, new[] { 1, input.Length });
+
+        var inputs = new List<NamedOnnxValue>
+        {
+            NamedOnnxValue.CreateFromTensor("input", inputTensor)
+        };
+
+        using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> results = _session.Run(inputs);
+        return results.First().AsEnumerable<float>().First(); // 0 or 1
+    }
+}

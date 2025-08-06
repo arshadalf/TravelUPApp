@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "M6Mpt59lJkCNiHeHPtAlFCUIeJwvZiXflV6n+8vUl8D80WeJoy4HGonL++5xl18ni/RGr6AnWhQCVUVxNjMkAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arsha\\OneDrive\\Desktop\\ECAP\\TravelUpApp_AI_ML\\TravelUpApp_AI_ML\\TravelUpApp_AI_ML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arsha\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.22.1\\microsoft.ml.onnxruntime.1.22.1.nupkg.sha512",
+    "C:\\Users\\arsha\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.22.1\\microsoft.ml.onnxruntime.managed.1.22.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\arsha\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
+    "C:\\Users\\arsha\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

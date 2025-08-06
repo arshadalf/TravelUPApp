@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TravelUpApp_AI_ML.props" />
+</Project>
